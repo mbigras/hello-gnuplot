@@ -1,0 +1,20 @@
+Hello Gnuplot
+
+Overview
+
+Hello world plot
+
+Links
+
+https://alvinalexander.com/technology/gnuplot-charts-graphs-examples
+http://gnuplot.sourceforge.net/docs_4.2/node99.html
+
+Hello world plot
+
+gnuplot <<EOF
+plot 'some.dat'
+set title 'Hello Gnuplot!'
+set xlabel 'x'
+set ylabel 'y'
+pause mouse keypress
+EOF
